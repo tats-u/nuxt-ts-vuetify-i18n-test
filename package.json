@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxt/typescript-build": "0.1.11",
+    "@nuxtjs/vuetify": "^1.6.3",
     "@types/node": "10.14.16",
     "@types/webpack-env": "1.14.0"
   }
