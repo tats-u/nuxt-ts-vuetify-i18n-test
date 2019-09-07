@@ -1,6 +1,16 @@
+<i18n>
+{
+  "en": {
+    "title": "Nuxt TypeScript Starter"
+  },
+  "ja": {
+    "title": "Nuxt TypeScript スターター"
+  }
+}
+</i18n>
 <template>
   <section>
-    <h1 class="header">Nuxt TypeScript Starter</h1>
+    <h1 class="header">{{ $t("title") }}</h1>
     <div class="cards">
       <Card
         v-for="person in people"

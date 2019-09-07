@@ -5,7 +5,7 @@ I suppose the combination of followings are necessary to create good-looking and
 - [x] ✅ Nuxt.js (2.9+)
 - [x] ✅ TypeScript
 - [x] ✅ Vuetify (2.0+)
-- [ ] 💥 nuxt-i18n
+- [x] ✅ nuxt-i18n
 
 Symbols:
 

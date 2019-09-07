@@ -18,6 +18,11 @@ export default {
   build: {},
   buildModules: ["@nuxt/typescript-build"],
   modules: ["@nuxtjs/axios", "nuxt-i18n"],
-  i18n: {},
+  i18n: {
+    locales: ["en", "ja"],
+    defaultLocale: "en",
+    vueI18n: { fallbackLocale: "en" },
+    vueI18nLoader: true
+  },
   axios: {}
 };
